@@ -9,7 +9,7 @@ const Info = () => {
     const bgPrimary = 'bg-gradient-to-r from-secondary to-primary';
     const bgAccent = 'bg-accent';
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 px-12'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 my-20'>
             <InfoCard cardTitle="Opening Hours" img={clock} bgClass={bgPrimary}></InfoCard>
             <InfoCard cardTitle="Our Locations" img={location} bgClass={bgAccent}></InfoCard>
             <InfoCard cardTitle="Contact Us" img={phone} bgClass={bgPrimary}></InfoCard>
